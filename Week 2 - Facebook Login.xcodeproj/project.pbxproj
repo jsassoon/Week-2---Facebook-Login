@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94AEBC251960C0EE0086F26E /* loginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AEBC231960C0EE0086F26E /* loginViewController.m */; };
+		94AEBC261960C0EE0086F26E /* loginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94AEBC241960C0EE0086F26E /* loginViewController.xib */; };
+		94AEBC2A1960DDDA0086F26E /* homefeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AEBC281960DDDA0086F26E /* homefeedViewController.m */; };
+		94AEBC2B1960DDDA0086F26E /* homefeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94AEBC291960DDDA0086F26E /* homefeedViewController.xib */; };
+		94E9E53D1961EF56007F557E /* requestsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E9E53B1961EF56007F557E /* requestsViewController.m */; };
+		94E9E53E1961EF56007F557E /* requestsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94E9E53C1961EF56007F557E /* requestsViewController.xib */; };
 		94F377C31958018A0056D13F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F377C21958018A0056D13F /* Foundation.framework */; };
 		94F377C51958018A0056D13F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F377C41958018A0056D13F /* CoreGraphics.framework */; };
 		94F377C71958018A0056D13F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F377C61958018A0056D13F /* UIKit.framework */; };
@@ -32,6 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		94AEBC221960C0EE0086F26E /* loginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginViewController.h; sourceTree = "<group>"; };
+		94AEBC231960C0EE0086F26E /* loginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginViewController.m; sourceTree = "<group>"; };
+		94AEBC241960C0EE0086F26E /* loginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = loginViewController.xib; sourceTree = "<group>"; };
+		94AEBC271960DDDA0086F26E /* homefeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = homefeedViewController.h; sourceTree = "<group>"; };
+		94AEBC281960DDDA0086F26E /* homefeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = homefeedViewController.m; sourceTree = "<group>"; };
+		94AEBC291960DDDA0086F26E /* homefeedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = homefeedViewController.xib; sourceTree = "<group>"; };
+		94E9E53A1961EF56007F557E /* requestsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = requestsViewController.h; sourceTree = "<group>"; };
+		94E9E53B1961EF56007F557E /* requestsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = requestsViewController.m; sourceTree = "<group>"; };
+		94E9E53C1961EF56007F557E /* requestsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = requestsViewController.xib; sourceTree = "<group>"; };
 		94F377BF1958018A0056D13F /* Week 2 - Facebook Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Week 2 - Facebook Login.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94F377C21958018A0056D13F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		94F377C41958018A0056D13F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -111,6 +126,15 @@
 				94F377D21958018A0056D13F /* AppDelegate.m */,
 				94F377D41958018A0056D13F /* Images.xcassets */,
 				94F377C91958018A0056D13F /* Supporting Files */,
+				94AEBC221960C0EE0086F26E /* loginViewController.h */,
+				94AEBC231960C0EE0086F26E /* loginViewController.m */,
+				94AEBC241960C0EE0086F26E /* loginViewController.xib */,
+				94AEBC271960DDDA0086F26E /* homefeedViewController.h */,
+				94AEBC281960DDDA0086F26E /* homefeedViewController.m */,
+				94AEBC291960DDDA0086F26E /* homefeedViewController.xib */,
+				94E9E53A1961EF56007F557E /* requestsViewController.h */,
+				94E9E53B1961EF56007F557E /* requestsViewController.m */,
+				94E9E53C1961EF56007F557E /* requestsViewController.xib */,
 			);
 			path = "Week 2 - Facebook Login";
 			sourceTree = "<group>";
@@ -219,8 +243,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94E9E53E1961EF56007F557E /* requestsViewController.xib in Resources */,
+				94AEBC261960C0EE0086F26E /* loginViewController.xib in Resources */,
 				94F377CD1958018A0056D13F /* InfoPlist.strings in Resources */,
 				94F377D51958018A0056D13F /* Images.xcassets in Resources */,
+				94AEBC2B1960DDDA0086F26E /* homefeedViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +267,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				94F377D31958018A0056D13F /* AppDelegate.m in Sources */,
+				94AEBC251960C0EE0086F26E /* loginViewController.m in Sources */,
 				94F377CF1958018A0056D13F /* main.m in Sources */,
+				94E9E53D1961EF56007F557E /* requestsViewController.m in Sources */,
+				94AEBC2A1960DDDA0086F26E /* homefeedViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +467,7 @@
 				94F377ED1958018A0056D13F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94F377EE1958018A0056D13F /* Build configuration list for PBXNativeTarget "Week 2 - Facebook LoginTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +476,7 @@
 				94F377F01958018A0056D13F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
